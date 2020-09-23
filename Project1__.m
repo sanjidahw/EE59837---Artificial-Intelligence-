@@ -10,22 +10,9 @@
 --------------------------------------------------------------------------
 
 Instructor            : Prof. Uyar
-Completion Date       : 2020 September 7
-Group number          : sample_pro_1_kp_1a.m
-Student 1 Name        : James Bond
-Student 1 CCNY email  : jbond007
-Student 1 Log In Name : ee6530_10
-Student 2 Name        : Clement McClean, Jr.
-Student 2 CCNY email  : 
-Student 2 Log In Name : 
-Student 3 Name        :	Kelvin Ma
-Student 3 CCNY email  :
-Student 3 Log In Name :
---------------------------------------------------------------------------
-| I UNDERSTAND THAT COPYING PROGRAMS FROM OTHERS WILL BE DEALT           |
-| WITH DISCIPLINARY RULES OF CCNY.                                       |
---------------------------------------------------------------------------
+
 %}
+
 clc;
 clear;
 
@@ -79,20 +66,14 @@ else
     end
 end
 
-
-
-
-
     fprintf('%s\n ]\n', message);
     fprintf('TOTAL weight OF RAILCARS: %d Tons\n', selection * items_table.weight);
     fprintf('TOTAL DAILY PASSENGERS: %d\n', selection * items_table.daily_passengers);
     disp('*********************************************')
 end
 
-%PUT ALL NAMES INTO STRING ARREAY BUT NOT SURE HOW TO MAP IT TO THE
-%HISTOGRAM
-%
-%COUNTER TELLS ME HOW MANY TIMES EACH NAMES SHOWS UP
+% Histogram
+
 numbers = 1:chromosome_len;
 
 names = string(chromosome_len)';
