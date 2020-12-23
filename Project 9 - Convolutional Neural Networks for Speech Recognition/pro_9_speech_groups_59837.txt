@@ -1,0 +1,19 @@
+Group 1: from Chinese to Russian / Russian to Chinese
+Group 2: from English Albanian / Albanian to English
+Group 3: from Korean to Chinese / Chinese to Korean
+Group 4: from Chinese to German / German to Chinese
+Group 5: from Spanish to Japanese / Japanese to Spanish
+Group 6: from Albanian to Turkish / Turkish to Albanian
+
+Translation incudes the following phrases:
+1. good morning
+2. thank you
+3. how much
+4. too expensive
+5. grocery store
+6. airport
+7. taxi stand
+8. restaurant
+9. bus stop
+10. good bye
+
